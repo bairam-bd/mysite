@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="detail.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+<title>COURT VINTAGE</title>
+
+</head>
+<body class="w3-content" style="max-width:1200px">  <!--ทำให้เนื้อหาข้างในคงที่ไม่ว่าจะดูจากคอมหรือมือถือ-->
+
+
+  <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">  <!--เป็นการกำหนดขนาดของการสร้างกล่องหรือตารางslidebarของหน้าMenu-->
+    <div class="w3-container w3-display-container w3-padding-16">  <!--เป็นการเรียกการแสดงผลของการจัดวางรูปแบบ-->
+      <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>  <!--สร้างข้อความขนานใหญ่แสดงด้านซ้ายบน-->
+      <h3 class="w3-wide"><b>SECOND HAND</b></h3>  <!--รูปแบบFontตัวอักษร-->
+    </div> 
+    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">  <!--กำหนดความใหญ่ของแถบเทาและตัวอักษรสีเทา-->
+      <a href="index.html" class="w3-bar-item w3-button">หน้าหลัก</a>  <!--สร้างปุ่มข้อความ-->
+      <a onclick="myAccFunc()" href="javascript:void(1)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">  <!--กำหนดให้ปุ่มอยู่ด้านซ้ายในกล่อง-->
+        เมนู <i class="fa fa-caret-down"></i>  <!--สร้างไอคอน-->
+    </a>
+  <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">  <!--ทำให้กล่องข้อความซ่อนอยู่ข้างใน-->
+    <a href="catalogmen.html" class="w3-bar-item w3-button">รองเท้าผู้ชาย</a>  <!--สร้างปุ่มกดในบาร์-->
+    <a href="catalogwoman.html" class="w3-bar-item w3-button">รองเท้าผู้หญิง</a>  <!--สร้างปุ่มกดในบาร์-->
+  </div>
+      <a href="ContactUs.html" class="w3-bar-item w3-button w3-padding">ติดต่อเรา</a>   <!--สร้างปุ่มกดในบาร์-->
+</nav>
+
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">  <!--สร้างปุ่มสีดำมีขนานใหญ่-->
+  <div class="w3-bar-item w3-padding-24 w3-wide">SECOND HAND</div><!--สร้างปุ่ม-->
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a> <!--สร้างปุ่มกับไอคอน-->
+</header>
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> <!--การตั้งค่า Effect การซ่อนต่างๆ-->
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px"> <!--ที่เก็บสำหรับเนื้อหาของหน้าเมื่อใช้คลาส w3 ยุบสำหรับการนำทางด้านการตอบสนอง-->
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div> <!--เนื้อหาถูกซ่อนอยู่-->
+
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge"> <!--คอนเทนเนอร์ HTML ที่มีช่องว่างภายในซ้ายและขวา 16px-->
+    <p class="w3-left">รองเท้าผู้ชาย</p> <!--ลอยองค์ประกอบไปทางซ้าย-->
+    </p>
+  </header>
+
+</div>
+<div class="container"> <!--คอนเทนเนอร์ HTML ที่มีช่องว่างภายในซ้ายและขวา 16px-->
+  <div class="row"> <!--สร้างrow-->
+    <div class="col-md-6"> <!--สร้างcolumn-->
+      <div id="carouselExampleControls">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <img src="img/man/court-vintage.jpg" style="width:60%"> 
+      </div>
+    </div>
+    <div class="col-md-6"> <!--สร้างcolumn-->
+      <div class="row"> <!--สร้างrow-->
+        <h2>COURT VINTAGE</h2>
+      </div>
+      <div class="row"> <!--สร้างrow-->
+        <h1>2,300฿</h1>
+
+
+
+      </div>
+
+      <div class="row"> <!--สร้างrow-->
+        <p>Nike Court Vintage Premium สื่อถึงที่สุดแห่งวงการเทนนิสยุค 80 โดยทั้งดูชิลๆ 
+          และทั้งมีสไตล์ มาพร้อมส่วนบนที่ผลิตจากหนังเรียบลื่นซึ่งผสานเข้ากับแบรนด์ขนาดเล็ก 
+          ให้ลุคและสัมผัสที่ดูผ่อนคลาย ส่วนแผ่นรองพื้นรองเท้าแบบลดแรงกระแทกนั้นก็ให้ความสบายนุ่มนวลในทุกย่างก้าว</p>
+        
+      </div>
+      <div class="row mt-4"> <!--สร้างrow-->
+        <h4>Size: &nbsp;</h4>
+        <div> 
+          <h3>7.5 us</h3>
+        </div>
+      </div>
+     
+      <div class="row mt-4"> <!--สร้างrow-->
+      	
+        <a class="btn btn-primary text-light" href="shopingcartmen.html">ซื้อเลย</a> &nbsp;  <!--สร้างปุ่มกดมีสี-->
+        <a class="btn btn-danger text-light" href="catalogmen.html">กลับหน้าเมนู</a>&nbsp;   <!--สร้างปุ่มกดมีสี-->
+        
+      </div>
+      
+
+      
+      
+    </div>
+  </div>
+</div>
+
+
+<script>
+  // Accordion 
+  function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // Click on the "Jeans" link on page load to open the accordion for demo purposes
+  document.getElementById("myBtn").click();
+  
+  
+  
+  
+  // Open and close sidebar
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+  }
+   
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+  }
+  </script>
+</body>
+</html>
+
+
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   
+   
+
+	
+	
+	
+	
+	
